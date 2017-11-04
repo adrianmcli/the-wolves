@@ -7,7 +7,7 @@
     "dev": "next",
     "build": "next build && next export && touch out/.nojekyll",
     "start": "next start",
-    "deploy": "git push origin `git subtree split --prefix out master`:gh-pages --force"
+    "deploy": "npm run build && git push origin `git subtree split --prefix out master`:gh-pages --force"
   },
   "dependencies": {
     "babel-plugin-styled-components": "^1.3.0",
