@@ -86,7 +86,7 @@ export default class extends React.Component {
             We plan to build a translation platform on top of the Ethereum blockchain.
           </Info>
           <Info>
-            On top of this, we wan to leverage machine learning to streamline translations for a specific medium.
+            On top of this, we want to leverage machine learning to streamline translations for a specific medium.
           </Info>
           <DownArrow />
         </InfoSection>
